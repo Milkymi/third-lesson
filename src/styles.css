@@ -1,0 +1,14 @@
+.dis-header {
+    display: flex;
+    margin: auto;
+    width: 770px;
+    justify-content: space-between;
+}
+.dis-ul{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    color: #003399;
+    list-style-type: none;
+    font-size: 24px;
+}
