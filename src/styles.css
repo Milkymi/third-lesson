@@ -1,26 +1,69 @@
+.app {
+    margin: auto;
+    text-align: center;
+    width: 770px;
+    font-family: 'Roboto';
+}
 .dis-header, .dis-footer {
     display: flex;
     margin: auto;
     width: 770px;
     justify-content: space-between;
 }
-.dis-ul {
+.dis-ul, .foot-ul {
     display: flex;
     width: 320px;
     justify-content: space-between;
     color: #003399;
     list-style-type: none;
     font-size: 24px;
+    margin: 0px;
+    padding-top: 28px;
+}
+.logo {
+    padding-top: 15px;
+}
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 .foot-ul {
-    display: flex;
-    width: 320px;
-    justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
-    list-style-type: none;
     font-size: 16px;
+    padding-top: 0px;
 }
 .copyright {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+    margin-top: 30px;
+}
+button {
+    width: 200px;
+    height: 58px;
+    font-size: 24px;
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 4px;
+}
+.plus {
+    background-color: #003399;
+    color: #FFFFFF;
+}
+.minus {
+    background-color: #F27C0F;
+    color: #FFFFFF;
+}
+.reset {
+    background-color: #E5E5E5;
+    color: #000000;
+}
+.counter {
+    font-size: 228px;
+    color: #F27C0F;
 }

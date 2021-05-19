@@ -1,6 +1,9 @@
+import {useState} from "react";
 function Number(props) {
     return (
-        <div></div>
+        <div className={"counter"}>
+            {props.counter}
+        </div>
     );
 }
 
