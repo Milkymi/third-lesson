@@ -2,13 +2,21 @@
     margin: auto;
     text-align: center;
     width: 770px;
-    font-family: 'Roboto';
+    font-family: 'Gilroy';
 }
 .dis-header, .dis-footer {
     display: flex;
     margin: auto;
     width: 770px;
     justify-content: space-between;
+}
+.dis-header {
+    height: 80px;
+    line-height: 80px;
+}
+.dis-footer, .fot-logo {
+    height: 100px;
+    line-height: 100px;
 }
 .dis-ul, .foot-ul {
     display: flex;
@@ -17,21 +25,19 @@
     color: #003399;
     list-style-type: none;
     font-size: 24px;
-    margin: 0px;
-    padding-top: 28px;
+    margin: 0;
 }
-.logo {
-    padding-top: 15px;
+.logo, .fot-logo {
+    padding-top: 12px;
 }
 hr {
     border: 1px solid rgba(0, 0, 0, 0.05);
-    margin-top: 25px;
     margin-bottom: 30px;
 }
 .foot-ul {
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 .copyright {
     font-size: 16px;
@@ -48,7 +54,7 @@ button {
     height: 58px;
     font-size: 24px;
     padding: 15px 40px;
-    border: 0px;
+    border: 0;
     border-radius: 4px;
 }
 .plus {
